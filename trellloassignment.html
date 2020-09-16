@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     html,body{
+         margin: 50px;
+         text-align: center;
+         
+         
+     } 
+     #heading{
+         font-size: 65px;
+         
+      color: #696969;
+       font-family: Helvetica;  
+         
+
+     }  
+     
+
+     #name{
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: medium;
+        
+     } 
+     #description{
+       padding:5px ;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       font-weight: bold;
+       
+        font-size:x-large;
+       
+     }
+     #button{
+         padding: 15px;
+         margin-top: 5px;
+        margin-bottom: 5px;
+        width: 1150px;
+        background-color: #F5F5F5;
+        color: #C0C0C0;
+        border-color:#F5F5F5 ;
+        font-weight: bold;
+        font-size: xx-large;
+        
+     }
+     .image{
+          float: right;
+          
+     }
+     .link{
+         float: right;
+         font-size: x-large;
+     }
+     .Invite-link{
+      float:left;
+      font-weight: bold;
+      color: #696969;
+      font-family: Helvetica; 
+      font-size: x-large;
+     } 
+    .last{
+        float: left;
+        font-size: medium;
+    };
+    .trello{
+        text-decoration: underline dotted red;
+    }
+    </style>
+</head>
+<body>
+    <span id="heading">Invite to Board</span><span class="image"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPUAAADOCAMAAADR0rQ5AAAAJFBMVEX39/e5ubm2trb6+vrQ0NDX19fa2trq6urj4+Pe3t7Hx8fBwcEWjt4gAAAD8UlEQVR4nO3d21LDMAwEUCcGkrT//79QOnQG6MWWpZU0a73wuHvGnZK2iV3KnDlz5syZM2fOnDnZptaybdvlD0+LWo7TepnTUfzc4BZ1P6/LddZl92LXfbm1ONu3qG8/ad+Jbz5scIvfcV5scIu/cT5scIv/cR5scIt7cXg2uMX9ODQb3OJRHJYNbvE4DskGt3gWh2ODWzyPQ7HBLV7FYdjgFq/jEGxwi5Y4eza4RVucNRvcojXOlg1uUY/WOEt2O/qrxaHQojnNkN2D/hp0ng0bX6InzojdiV7GF3vvDdRn96PXwW/S6ntvojq7H72s74Pq/khltkcDSaYq26VA/RCEKrJF6OFXeNkkqWpsGXpZt9FgSaoWW4ge/88leBNXY0vRwy/wIl1sBbZ4pcevSEvtvk5RYovRo9co13TR2/gwW47+0PmA7cH2Rruw/dEO7AhoODsGGsyOgoay46CB7EhoGDsWGsSOhoaw46EB7Ihoc3ZMtPzjdhM7Ktp0teOiDVc7MtpstWOjjVY7OtpkteOjDVY7A1qdnQOtzJajFb749mJnWWlVdp6VVmRnWmk1dq6VVmJnW2kVdr6VVmBnXOlhds6VHmWnRY+wz3nRA2zhhECj2UHQWHYYNJIdCI1jh0Kj2MHQGHY4NIIdEG3PDom2ZgdF27LDoi3ZgdF27NBoK3ZwtA07PNqCnQCtz06B1mYnQeuy06A12YnQeuxUaC12MrQOOx1ag50QPc5OiR5lJ0WPsdOiR9iJ0Zxqylc45bsZ5X8uyqsUyitSyk8flJ80Kb9VoPwGifLbQspvhil/BaD8xYfy1z3KX3Ipf7WnvEOD8m4cyjuvKO+yo7yjkvLuWco7pSnviqd8AoLyaRfKJ5son2KjfGKR8ulUtyeREz9+nZPtusNA4m0V8rHddw5JvF1KLnaIHYESb4OUhx1mpy8kO9Cubjg25Q5+wXZrxKw25c6cAXdhtV9tyh13g+6ubLvalDtpU+6aTrlDPuVpCJQnX1CeckJ5og3l6UWUJ1VRnkpGeQId5WmDlCdLkp4iKovOfWIs6enAotzsJ0FTnvote4FnP+FdlKqHdiogCdVE+zQQvMJ10SL28Cu8+xpFGy1hj1+nuKMlbHCiBdqlhD+6m60QeLQHWqH72Ouh8aGrOdAO7dCiNdAS7dCiLdAW7dCiJdAa7dDidaA92qHFq0AE2qHF80AM2qHFs0AU2qHF40Ac2qHFo0Ak2qHF/UAs2qHFvUA02qHF/0A82qHF30APtEOL34E+aIcWdb89VbouGr+jCVsstxZnRItajtN6mdNR/J4bxLeotWzbdvnjOTFazJkzZ86cOXPmzJkjmU9TO1WUbv+IBgAAAABJRU5ErkJggg==" width="20px" height="15px" id="image">
+    </span><hr/>
+    <form>
+    <input type="text" placeholder="Enter address or name" size="123" id="name" name="name" required/>
+    <br/>
+    <textarea id="description" rows="10" cols="102" name="description" >I'm working on this project in Trello and wanted to share it with you!</textarea>
+    <br/>
+    <input type="button" value="Send Invitation" width="134" name="button" id="button">
+    <br/>
+    <hr/>
+    </form>
+    <span class="Invite-link">[ - ]       Invite with Link</span><span class="link"><a href="#heading" id="link" >Create Link</a></span>
+    <br/>
+    <br/>
+    <div class="last">Anyone with this link can join as board</div>
+
+
+</body>
+</html>

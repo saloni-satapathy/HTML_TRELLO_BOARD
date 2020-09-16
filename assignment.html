@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Board</title>
+    <style>
+        .board{
+            display:flex;
+            flex-wrap: true;
+            font-family: Helvetica; 
+            color: #2F4F4F;
+           
+           
+        }
+        .div1,.div2,.div3,.div4{
+            background-color:#DCDCDC;
+            flex-grow: 1;
+            margin: 10px;
+            padding: 10px;
+            align-self: flex-start;
+            border-radius: 5px;
+            
+        }
+        .div1t{
+            text-align:left;
+            font-weight: bold;
+
+        }
+        .div2t{
+            /* background-color: #C0C0C0; */
+             text-align: left;
+             font-weight: bold;
+        }
+        .div3t{
+            /* background-color: #C0C0C0; */
+            font-weight: bold;
+            text-align: left;
+        }
+        
+        .image{
+            float:right;
+        }
+        .A1,.A2,.B1{
+            background-color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding:5px;
+        }
+        .plus{
+           margin-top: 10px;
+           font-size: 15px;
+        }
+        .plus4{
+            font-size: 15px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="board">
+        <div class="div1">
+            <span class="div1t">To Do </span>
+            <span class="image">
+                <img height="15px" width="15px"src="https://cdn4.iconfinder.com/data/icons/navigation-solid-style/24/navigation-show-more-horizontal-512.png">
+            </span>
+            <div class="A1">
+                Learn HTML
+            </div>
+            <div class="A2">
+                 Learn CSS
+            </div>
+            <div class="plus">
+
+                + Add another card
+            </div>
+        </div>
+        <div class="div2">
+            <span class="div2t">Doing </span>
+                <span class="image">
+                <img height="15px" width="15px"src="https://cdn4.iconfinder.com/data/icons/navigation-solid-style/24/navigation-show-more-horizontal-512.png">
+            </span>
+            <div class="B1">
+                Prepare Resume
+
+            </div>
+            <div class="plus">
+
+                + Add another card
+            </div>
+            </div>
+        <div class="div3">
+            <span class="div3t">Done</span>
+            <span class="image">
+                <img height="15px" width="15px"src="https://cdn4.iconfinder.com/data/icons/navigation-solid-style/24/navigation-show-more-horizontal-512.png">
+            </span>
+            <div class="plus">
+
+                + Add card
+            </div>
+        </div>
+
+        <div class="div4">
+            <!-- <span class="div4t">saloni</span> -->
+            <!-- <span class="image"> -->
+                <!-- <img height="10px" width="10px"src="https://cdn4.iconfinder.com/data/icons/navigation-solid-style/24/navigation-show-more-horizontal-512.png"> -->
+            <!-- </span> -->
+            <div class="plus4">
+
+                + Add another list
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
